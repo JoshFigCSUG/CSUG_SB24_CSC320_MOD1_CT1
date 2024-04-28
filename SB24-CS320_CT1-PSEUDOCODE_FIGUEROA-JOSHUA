@@ -1,0 +1,31 @@
+Start
+	Declarations
+		string firstName
+		string lastName
+		string streetAddress
+		string city
+		int zipCode
+		
+	OUTPUT "Enter a first name: "
+	USERINPUT → firstName
+	
+	OUTPUT "Enter a last name: "
+	USERINPUT → lastName
+	
+	OUTPUT "Enter a street address: "
+	USERINPUT → streetAddress
+	
+	OUTPUT "Enter a city: "
+	USERINPUT → city
+	
+	OUTPUT "Enter a zip code: "
+	USERINPUT → zipCode
+	
+	
+	OUTPUT "First name: " + firstName
+	OUTPUT "Last name: " + lastName
+	OUTPUT "Street address: " + streetAddress
+	OUTPUT "City: " + city
+	OUTPUT "Zip code: " + zipCode
+	
+End
